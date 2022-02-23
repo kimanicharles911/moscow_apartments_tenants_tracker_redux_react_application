@@ -1,16 +1,16 @@
 
 <h1 align="center"><a href="https://moscowapartmentstenantsreduxreact.netlify.app/" target="_blank">🌐 Moscow Apartments Tenants Tracker Redux React</a></h1>
+
 <p>
   <img alt="Version" src="https://img.shields.io/badge/version-1.0-blue.svg?cacheSeconds=2592000" />
   <a href="https://github.com/kimanicharles911/emmethub_nodejs_modules/blob/master/LICENSE.txt" target="_blank">
     <img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-yellow.svg" />
   </a>
-  [![Netlify Status](https://api.netlify.com/api/v1/badges/2686816d-069a-4716-aaab-a1da06dc39b0/deploy-status)](https://app.netlify.com/sites/moscowapartmentstenantsreduxreact/deploys)
 </p>
 
 > This is the Repository of a Web App used to enable tracking information about Tenants of Moscow Apartments by presenting their data to the Agents of the Apartment. One can update the information about any tenant. It is built using Redux, Redux-Thunk, React, React-Bootstrap, Bootstrap and the axios http client.
 
-## Deployed at
+## Deployed at [![Netlify Status](https://api.netlify.com/api/v1/badges/2686816d-069a-4716-aaab-a1da06dc39b0/deploy-status)](https://app.netlify.com/sites/moscowapartmentstenantsreduxreact/deploys)
 * https://moscowapartmentstenantsreduxreact.netlify.app/
 
 ***
