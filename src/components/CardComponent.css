@@ -1,0 +1,43 @@
+.career-bio {
+  margin: 1rem 0;
+}
+
+.career-bio p {
+  margin: 0;
+}
+.email p {
+  font-style: italic;
+  font-size: 0.8rem;
+  margin: 0;
+}
+.card {
+  margin: 2rem 2rem 2rem 0;
+  padding: 1.5rem;
+  width: 250px;
+  box-shadow: 0 0 28px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+
+.card:hover {
+  transform: scale(1.1);
+}
+.card__title {
+  font-weight: 800;
+  font-size: 1.5rem;
+}
+.card__image {
+  display: flex;
+  justify-content: flex-end;
+}
+.card_image img {
+  border-radius: 50%;
+}
+#update-btn {
+  color: #fff;
+  background-color: rgb(25, 118, 210);
+  border-color: rgb(25, 118, 210);
+}
+#update-btn:hover {
+  box-shadow: none;
+}

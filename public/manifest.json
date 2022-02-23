@@ -1,0 +1,9 @@
+{
+  "short_name": "moscow_apartments_tenants_tracker_redux_react_application",
+  "name": "moscow_apartments_tenants_tracker_redux_react_application dolor sit amet",
+  "icons": [],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}

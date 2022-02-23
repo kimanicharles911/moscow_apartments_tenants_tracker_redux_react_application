@@ -1,0 +1,12 @@
+.modal-dialog{
+  width: 400px;
+}
+#save-edit-changes-btn {
+  color: #fff;
+  background-color: rgb(25, 118, 210);
+  border-color: rgb(25, 118, 210);
+}
+/* 
+  * Set modal dialog width
+  * Set color, background-color and border-color of the save edit changes btn
+*/
