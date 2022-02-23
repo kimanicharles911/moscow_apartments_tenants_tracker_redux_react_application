@@ -70,26 +70,61 @@ const EditModalComponent = ({tenantToUpdate, updateTenant, fetchTenants}) => {
           <div className="modal-body pl-5 pr-5 pt-0">
             <form>
               <div className="form-floating mb-3 mt-3">
-                <input type="text" className="form-control rounded-4" id="floatingEditName" placeholder="Name" value={tenantToUpdate.name} onChange={nameChangeHandler}/>
+                <input
+                  type="text"
+                  className="form-control rounded-4"
+                  id="floatingEditName"
+                  placeholder="Name"
+                  value={tenantToUpdate.name}
+                  onChange={nameChangeHandler}
+                />
                 <label htmlFor="floatingEditName">Name</label>
               </div>
               <div className="form-floating mb-3 mt-3">
-                <input type="text" className="form-control rounded-4" id="floatingEditOccupation" placeholder="Occupation" value={tenantToUpdate.occupation} onChange={occupationChangeHandler}/>
+                <input
+                  type="text"
+                  className="form-control rounded-4"
+                  id="floatingEditOccupation"
+                  placeholder="Occupation"
+                  value={tenantToUpdate.occupation}
+                  onChange={occupationChangeHandler}
+                />
                 <label htmlFor="floatingEditOccupation">Occupation</label>
               </div>
               <div className="form-floating mb-3 mt-3">
-                <input type="email" className="form-control rounded-4" id="floatingEditEmail" placeholder="Email" value={tenantToUpdate.email} onChange={emailChangeHandler}/>
+                <input
+                  type="email"
+                  className="form-control rounded-4"
+                  id="floatingEditEmail"
+                  placeholder="Email"
+                  value={tenantToUpdate.email}
+                  onChange={emailChangeHandler}
+                />
                 <label htmlFor="floatingEditEmail">Email</label>
               </div>
               <div className="form-floating mb-3">
-                <textarea className="form-control rounded-4" id="floatingTextArea" placeholder="Bio" value={tenantToUpdate.bio} onChange={bioChangeHandler}></textarea>
+                <textarea
+                  className="form-control rounded-4"
+                  id="floatingTextArea"
+                  placeholder="Bio"
+                  value={tenantToUpdate.bio}
+                  onChange={bioChangeHandler}
+                ></textarea>
                 <label htmlFor="floatingTextArea">Bio</label>
               </div>
             </form>
           </div>
           <div className="modal-footer">
             <button type="button" className="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
-            <button type="button" className="btn btn-danger" data-bs-dismiss={validator() === true ? 'modal': ''} id="save-edit-changes-btn" onClick={saveChangesBtnHandler}>Save changes</button>
+              <button
+                type="button"
+                className="btn btn-danger"
+                data-bs-dismiss={validator() === true ? 'modal' : ''}
+                id="save-edit-changes-btn"
+                onClick={saveChangesBtnHandler}
+              >
+                Save changes
+              </button>
           </div>
         </div>
       </div>

@@ -39,9 +39,28 @@ const CardComponent = ({ fetchTenants, tenants, fetchTinyFaces, tinyFaces, updat
             <div className="email">
               <p>Email: {tenant.email ? tenant.email : defaultDetails.email}</p>
             </div>
-            <a href="/#" type="button" className="btn mt-1" id="update-btn" data-bs-toggle="modal" data-bs-target="#editModal" onClick={() => updateTenant(tenant)}>Update <FontAwesomeIcon icon={faPen} className="fas fa-pen" id="pen-icon" /></a>
-            <div className="card__image"><img src={tinyFaces.length === 50 ? tinyFaces[randomIndex()].url : `https://fakeface.rest/thumb/view`} style={{ width: "70px", height: "70px" }} alt="" /></div>
-            {/* <div className="card__image"><img src='https://fakeface.rest/thumb/view' style={{ width: "70px", height: "70px" }} alt="" /></div> */}
+              <a
+                href="/#"
+                type="button"
+                className="btn mt-1"
+                id="update-btn"
+                data-bs-toggle="modal"
+                data-bs-target="#editModal"
+                onClick={() => updateTenant(tenant)}
+              >
+                Update <FontAwesomeIcon icon={faPen} className="fas fa-pen" id="pen-icon" />
+              </a>
+            <div className="card__image">
+              <img
+                src={
+                  tinyFaces.length === 50
+                    ? tinyFaces[randomIndex()].url
+                    : `https://fakeface.rest/thumb/view`
+                }
+                style={{width: '70px', height: '70px'}}
+                alt=""
+              />
+            </div>
           </div>
         </div>
       ))}
